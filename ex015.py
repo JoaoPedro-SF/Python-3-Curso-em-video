@@ -1,0 +1,5 @@
+print('Aluguel de carros!')
+d = float(input('Alugou por quantos dias?:'))
+km = float(input('Quantos kilometros percorridos?:'))
+soma = (d * 60) + (km * 0.15)
+print(f'O total a pagar por andar {d:.0f} dias e percorrer {km:.0f}km é de R${soma:.2f}')
